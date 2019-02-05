@@ -1,0 +1,28 @@
+{
+    "name": "indiehd/filename-sanitizer",
+    "description": "A lightweight library for sanitizing strings to be used as filenames.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "indieHD, LLC",
+            "email": "webmaster@indiehd.com",
+            "homepage": "https://indiehd.com"
+        },
+        {
+            "name": "Contributors",
+            "homepage": "https://github.com/indiehd/filename-sanitizer/graphs/contributors"
+        }
+    ],
+    "require": {
+        "php": ">=7.0.0"
+    },
+    "require-dev": {
+        "phpro/grumphp": "^0.14.3",
+        "phpunit/phpunit": "^7"
+    },
+    "autoload": {
+        "psr-4": { "IndieHD\\FilenameSanitizer\\": "src" }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
