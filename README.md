@@ -1,5 +1,6 @@
 # Filename Sanitizer
 [![Build Status](https://travis-ci.org/indiehd/filename-sanitizer.svg?branch=master)](https://travis-ci.org/indiehd/filename-sanitizer)
+[![Coverage Status](https://coveralls.io/repos/github/indiehd/filename-sanitizer/badge.svg?branch=master)](https://coveralls.io/github/indiehd/filename-sanitizer?branch=master)
 
 ## About ##
 
