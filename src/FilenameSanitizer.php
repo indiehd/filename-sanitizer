@@ -16,7 +16,7 @@ class FilenameSanitizer implements FilenameSanitizerInterface
 
     public function __construct(string $filename = '')
     {
-        $this->initializeillegalCharacters();
+        $this->initializeIllegalCharacters();
 
         $this->setFilename($filename);
     }
