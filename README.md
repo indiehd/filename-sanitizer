@@ -68,7 +68,7 @@ var_dump($sanitizer->getFilename());
 
 ## Limitations ##
 
-This library makes no effort to validate the length of a given filename because a valid length can be extremely difficult to determine, given the many factors involved, especially when dealing with directories structures within archives.
+This library makes no effort to validate the length of a given filename because a valid length can be extremely difficult to determine, given the many factors involved, especially when dealing with directory structures within archives.
 
 For example, when a file is packed into an archive, its filename length is largely irrelevant because when the archive is unpacked, the length limit includes the present working directory depth, and the archive itself may include any hierarchy of arbitrary length in addition.
 
