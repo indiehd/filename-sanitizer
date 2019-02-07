@@ -1,6 +1,9 @@
 # Filename Sanitizer
 [![Build Status](https://travis-ci.org/indiehd/filename-sanitizer.svg?branch=master)](https://travis-ci.org/indiehd/filename-sanitizer)
 [![Coverage Status](https://coveralls.io/repos/github/indiehd/filename-sanitizer/badge.svg?branch=master)](https://coveralls.io/github/indiehd/filename-sanitizer?branch=master)
+[![Latest Stable Version](https://poser.pugx.org/indiehd/filename-sanitizer/v/stable)](https://packagist.org/packages/indiehd/filename-sanitizer)
+[![Total Downloads](https://poser.pugx.org/indiehd/filename-sanitizer/downloads)](https://packagist.org/packages/indiehd/filename-sanitizer)
+[![License](https://poser.pugx.org/indiehd/filename-sanitizer/license)](https://packagist.org/packages/indiehd/filename-sanitizer)
 
 ## About ##
 
@@ -76,6 +79,10 @@ For example, when a file is packed into an archive, its filename length is large
 Even in consideration of the above, target filesystem limits may vary depending on the API used to access the filesystem.
 
 The bottom-line is that filename length must be considered in the context of the full filesystem path, which is beyond this library's scope and should be implemented given the specific application's business needs.
+
+## Versioning ##
+
+This library makes every effort to observe [Semantic Versioning](https://semver.org/).
 
 ## Contributing ##
 
