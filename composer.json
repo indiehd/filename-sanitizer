@@ -18,7 +18,8 @@
     },
     "require-dev": {
         "phpro/grumphp": "^0.14.3",
-        "phpunit/phpunit": "^7"
+        "phpunit/phpunit": "^7",
+        "php-coveralls/php-coveralls": "^2.1"
     },
     "autoload": {
         "psr-4": { "IndieHD\\FilenameSanitizer\\": "src" }
