@@ -6,7 +6,7 @@ interface FilenameSanitizerInterface
 {
     public function getIllegalCharacters();
 
-    public function setFilename(string $filename);
+    public function setFilename($filename);
 
     public function getFilename();
 
