@@ -119,7 +119,7 @@ class FilenameSanitizerTest extends TestCase
     public function testIllegalCharactersOnMacAreStripped()
     {
         $forbiddenOnMac = [
-            ':'
+            ':',
         ];
 
         $this->assertEquals(

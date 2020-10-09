@@ -58,7 +58,7 @@ class FilenameSanitizer implements FilenameSanitizerInterface
         }
 
         $this->illegalCharacters['macos'] = [
-            ':'
+            ':',
         ];
 
         return $this;
@@ -74,6 +74,7 @@ class FilenameSanitizer implements FilenameSanitizerInterface
 
     /**
      * @param string $filename
+     *
      * @return $this
      */
     public function setFilename(string $filename)
@@ -114,7 +115,7 @@ class FilenameSanitizer implements FilenameSanitizerInterface
     public function stripRiskyCharacters()
     {
         $options = [
-            'flags' => FILTER_FLAG_STRIP_BACKTICK | FILTER_FLAG_STRIP_LOW
+            'flags' => FILTER_FLAG_STRIP_BACKTICK | FILTER_FLAG_STRIP_LOW,
         ];
 
         $this->setFilename(
@@ -141,7 +142,7 @@ class FilenameSanitizer implements FilenameSanitizerInterface
 
         $escapedRegex = preg_quote($illegalCharactersAsString, '/');
 
-        $this->setFilename(preg_replace('/[' . $escapedRegex . ']/', '', $this->getFilename()));
+        $this->setFilename(preg_replace('/['.$escapedRegex.']/', '', $this->getFilename()));
 
         return $this;
     }
